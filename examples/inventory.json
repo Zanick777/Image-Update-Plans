@@ -1,0 +1,29 @@
+{
+  "paths_relative_to": "project_root",
+  "images": [
+    {
+      "id": "ubi-9",
+      "image_ref": "example.invalid/ubi:9",
+      "dockerfile": "examples/repos/ubi-base/Containerfile",
+      "workflow": ".github/workflows/ubi.yml",
+      "source_repo": "synthetic/ubi-base",
+      "platform": "linux/amd64"
+    },
+    {
+      "id": "java-21",
+      "image_ref": "example.invalid/java:21",
+      "dockerfile": "examples/repos/java-runtime/Containerfile",
+      "workflow": ".github/workflows/java.yml",
+      "source_repo": "synthetic/java-runtime",
+      "platform": "linux/amd64"
+    },
+    {
+      "id": "tomcat-10",
+      "image_ref": "example.invalid/tomcat:10",
+      "dockerfile": "examples/repos/tomcat/Containerfile",
+      "workflow": ".github/workflows/tomcat.yml",
+      "source_repo": "synthetic/tomcat",
+      "platform": "linux/amd64"
+    }
+  ]
+}
