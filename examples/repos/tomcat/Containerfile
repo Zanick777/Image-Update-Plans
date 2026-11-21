@@ -1,0 +1,2 @@
+FROM example.invalid/java:21 AS runtime
+RUN echo synthetic-tomcat
